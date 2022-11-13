@@ -1,6 +1,6 @@
 # SmartParking
 
-#Intent
+# Intent
 The intent of this project is to provide an iOS solution for a block of flats, that have a underground parking.
 
 Provided features:
@@ -8,7 +8,7 @@ Provided features:
 2. Ad-hoc usage for a foregin person (someone that doesn't live in that block). They would be allowed to see the free parking spots and require them for a specific time frame. When this happens, the owner of the spot can accept/reject the requirment. When it is accepted, the spot automaticaly becomes occupied for the amount of required by the foreign person.
 3. Nice to have but requires hardware integration. If the paring lot requires a remote control to open the door, it would be nice to control the door with the phone. This functionality should become available for the person requiring it, when the deal described above is finalised with success. This should disappear from the application, when the time has expired. (Or maybe it would make sense to have a delay of 30 mins or so to avoid situations in which the foreign becomes stuck due to the door not opening).
 
-#Tech Stack
+# Tech Stack
 In what concerns the tech stack, the main goal of the application is learning. The mobile application will be integrated with a simple backend solution (like Firebase) at least in the beginning. In the future it might evolve to a self hosted backend.
 
 The application is going to be split in backend & frontend. The main focus on the app is the frontend through the iOS app. The app will contain (and will be a `playground` for):
